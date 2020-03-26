@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:theme="@style/AboutTheme"
+    android:id="@+id/root"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEE">
+    <!-- TODO NUMBER 2. Create TextView controls with your personal answers to the right side of the question (in the same row) -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:background="#FFF">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:paddingStart="@dimen/horizontal_margins"
+            android:paddingEnd="@dimen/horizontal_margins"
+            android:text="@string/about_about_label"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption" />
+
+        <TextView
+            android:text="Name: Nermina"
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:paddingStart="@dimen/horizontal_margins"
+            android:paddingEnd="@dimen/horizontal_margins"
+
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?attr/selectableItemBackground" />
+        <!--TODO NUMBER 2. Create control here-->
+        <TextView
+            android:text="School name: UACS"
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:paddingStart="@dimen/horizontal_margins"
+            android:paddingEnd="@dimen/horizontal_margins"
+
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?attr/selectableItemBackground" />
+        <!--TODO NUMBER 2. Create control here-->
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:elevation="2dp"
+        android:background="#FFF">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:paddingTop="16dp"
+            android:paddingStart="@dimen/horizontal_margins"
+            android:paddingEnd="@dimen/horizontal_margins"
+
+            android:text="@string/about_contact_label"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+
+            android:focusable="true"
+            android:paddingStart="@dimen/horizontal_margins"
+            android:paddingTop="16dp"
+            android:paddingEnd="@dimen/horizontal_margins"
+
+            android:paddingBottom="16dp"
+            android:text="Email: nerminaj@gmail.com"
+            android:textAppearance="?attr/textAppearanceListItem" />
+
+                <!--TODO NUMBER 2. Create control here-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:layout_marginTop="16dp"
+        android:background="#FFF">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:paddingStart="@dimen/horizontal_margins"
+            android:paddingEnd="@dimen/horizontal_margins"
+            android:text="Application version number"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption" />
+        <TextView
+            android:id="@+id/app_version"
+            android:text="v1.0"
+            android:textAppearance="?attr/textAppearanceListItemSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/horizontal_margins"
+            android:paddingEnd="@dimen/horizontal_margins"
+            android:paddingBottom="16dp" />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
